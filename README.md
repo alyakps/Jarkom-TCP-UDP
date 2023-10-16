@@ -14,7 +14,7 @@ maka akan muncul hasil berikut dan tekan Transmission Control Protocol lalu dida
 Ip Address : 192.168.86.68
 Port       : 55639
 ````
-//![image]
+<img src="/img/no1tcp.png" alt="no1" title="No. 1">
 
 ### Soal No 2
 > What is the IP address of gaia.cs.umass.edu? On what port number is it sending and receiving TCP segments for this connection?
@@ -24,7 +24,7 @@ Pada soal no 1 telah dilakukan filtering dan kita bisa melihat IP Address dari g
 IP Address : 128.119.245.12
 Port       : 80
 ````
-//![image]
+<img src="/img/no2tcp.png" alt="no2" title="No. 2">
 
 ### Soal No 3
 > What is the sequence number of the TCP SYN segment that is used to initiate the TCP connection between the client computer and gaia.cs.umass.edu? (Note: this is the “raw” sequence number carried in the TCP segment itself; it is NOT the packet # in the “No.” column in the Wireshark window. Remember there is no such thing as a “packet number” in TCP or UDP; as you know, there are sequence numbers in TCP and that’s what we’re after here. Also note that this is not the relative sequence number with respect to the starting sequence number of this TCP session.). What is it in this TCP segment that identifies the segment as a SYN segment? Will the TCP receiver in this session be able to use Selective Acknowledgments (allowing TCP to function a bit more like a “selective repeat” receiver, see section 3.4.5 in the text)?
