@@ -139,7 +139,7 @@ total length dari UDP header adalah 2 + 2 + 2 + 2 = 8 bytes
 ````
 Length: 283
 ````
-//![image]
+<img src="/img/no3udp.png" alt="no3" title="No. 3">
 
 ### Soal No 4
 > What is the maximum number of bytes that can be included in a UDP payload? (Hint: the answer to this question can be determined by your answer to 2. above)
