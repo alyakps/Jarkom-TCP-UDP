@@ -39,7 +39,8 @@ TCP SYN sequence number (raw) : 4236649187
 Flag 0x002 identifies the segment as SYN
 Certainly, the recipient is able to utilize Selective Acknowledgements since the packet allows for SACK.
 ````
-//![image]
+<img src="/img/no3tcp.png" alt="no3" title="No. 3">
+
 
 ### Soal No 4
 > What is the sequence number of the SYNACK segment sent by gaia.cs.umass.edu to the client computer in reply to the SYN? What is it in the segment that identifies the segment as a SYNACK segment? What is the value of the Acknowledgement field in the SYNACK segment? How did gaia.cs.umass.edu determine that value?
@@ -51,7 +52,8 @@ Flag            : 0x012
 ACK value       : 4236649187
 ````
 
-//![image]
+<img src="/img/no4tcp.png" alt="no4" title="No. 4">
+
 
 ### Soal No 5
 > What is the sequence number of the TCP segment containing the header of the HTTP POST command? Note that in order to find the POST message header, you’ll need to dig into the packet content field at the bottom of the Wireshark window, looking for a segment with the ASCII text “POST” within its DATA field. How many bytes of data are contained in the payload (data) field of this TCP segment? Did all of the data in the transferred file alice.txt fit into this single segment?
@@ -62,7 +64,8 @@ Sequence number : 4236649188
 Payload         : 1514 bytes
 No.
 ````
-//![image]
+<img src="/img/no5tcp.png" alt="no5" title="No. 5">
+
 
 ### Soal No 6
 > Consider the TCP segment containing the HTTP “POST” as the first segment in the data transfer part of the TCP connection.
@@ -78,7 +81,8 @@ data tiba pada
 ````
 Arrival Time: Feb  3, 2021 09:43:26.840557000 SE Asia Standard Time
 ````
-//![image]
+<img src="/img/no6tcp.png" alt="no6" title="No. 6">
+
 
 > - At what time was the ACK for this first data-containing segment received?
 
@@ -86,7 +90,8 @@ lihat packet responnya dan data diterima pada
 ````
 Arrival Time: Feb  3, 2021 09:43:26.885500000 SE Asia Standard Time
 ````
-//![image]
+<img src="/img/no6.1tcp.png" alt="no6" title="No. 6">
+
 
 > - What is the EstimatedRTT value (see Section 3.5.3, in the text) after the ACK for the second data-carrying segment is received? Assume that in making this calculation after the received of the ACK for the second segment, that the initial value of EstimatedRTT is equal to the measured RTT for the first segment, and then is computed using the EstimatedRTT equation on page 242, and a value of alpha = 0.125.
 > _Note: Wireshark has a nice feature that allows you to plot the RTT for each of the TCP segments sent. Select a TCP segment in the “listing of captured packets” window that is being sent from the client to the gaia.cs.umass.edu server. Then select: Statistics->TCP Stream Graph-Round Trip Time Graph._
@@ -100,13 +105,15 @@ dari dua informasi diatas bisa didapatkan bahwa RTT atau Round Trip Time dari da
 ````
 Frame 153: **1451 bytes** on wire (11608 bits), 1451 bytes captured (11608 bits) on interface en0, id 0
 ````
-//![image]
+<img src="/img/no7tcp.png" alt="no7" title="No. 7">
+
 
 **Second Frame Length 7**
 ````
 Frame 179: **843 bytes** on wire (6744 bits), 843 bytes captured (6744 bits) on interface en0, id 0
 ````
-//![image]
+<img src="/img/no7.1tcp.png" alt="no7" title="No. 7">
+
 
 ### Soal No 1
 > Select the first UDP segment in your trace. What is the packet number4 of this segment in the trace file? What type of application-layer payload or protocol message is being carried in this UDP segment? Look at the details of this packet in Wireshark. How many fields there are in the UDP header? (You shouldn’t look in the textbook! Answer these questions directly from what you observe in the packet trace.) What are the names of these fields?
