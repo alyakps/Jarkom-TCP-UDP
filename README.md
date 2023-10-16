@@ -123,14 +123,15 @@ Frame 179: **843 bytes** on wire (6744 bits), 843 bytes captured (6744 bits) on 
 2. SSDP
 3. Dari packet di bawah, didapatkan bahwa terdapat 4 field pada UDP header yaitu Source Port, Destination Port, Length, dan Checksum.
 ````
-//![image]
+<img src="/img/no1udp.png" alt="no1" title="No. 1">
+
 ### Soal No 2
 > By consulting the displayed information in Wireshark’s packet content field for this packet (or by consulting the textbook), what is the length (in bytes) of each of the UDP header fields?
 
 ````
 total length dari UDP header adalah 2 + 2 + 2 + 2 = 8 bytes
 ````
-//![image]
+<img src="/img/no2udp.png" alt="no2" title="No. 2">
 
 ### Soal No 3
 > The value in the Length field is the length of what? (You can consult the text for this answer). Verify your claim with your captured UDP packet. 
