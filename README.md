@@ -156,7 +156,7 @@ Angka tertinggi yang dapat digunakan sebagai nomor port sumber dalam protokol la
 
 didapatkan hasil : 17
 
-//![image]
+<img src="/img/no6udp.png" alt="no6" title="No. 6">
 
 ### Soal No 7
 > Examine the pair of UDP packets in which your host sends the first UDP packet and the second UDP packet is a reply to this first UDP packet. (Hint: for a second packet to be sent in response to a first packet, the sender of the first packet should be the destination of the second packet).
@@ -167,6 +167,8 @@ First packet is 15
 > What is the packet number6 of the second of these two UDP segments in the trace file?
 
 Second packet is 17
+
+<img src="/img/no7udp.png" alt="no7" title="No. 7">
 
 //![image]
 
